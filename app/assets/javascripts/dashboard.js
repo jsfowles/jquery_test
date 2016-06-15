@@ -1,6 +1,8 @@
 // wait for the dom to be ready
 // IMPORTANT = ADD THIS TO EACH JS FILE YOU WRITE!!!
 $(document).on('ready', function() {
+  $('#name-list li:nth-child(2)').css('color', 'red');
+
   function addUser() {
     // grabbing the whole input element off the page
     var userNameInput = $('#user-input');
